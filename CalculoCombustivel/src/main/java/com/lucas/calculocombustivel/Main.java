@@ -6,6 +6,7 @@
 package com.lucas.calculocombustivel;
 
 import com.lucas.calculocombustivel.view.TelaCalculoCombustivel;
+import com.lucas.calculocombustivel.view.TelaPrincipal;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
@@ -20,8 +21,8 @@ public class Main {
     
     public static void main(String[] args){
         lookAndFeel();
-        TelaCalculoCombustivel telaCalcCombustivel = new TelaCalculoCombustivel();
-        telaCalcCombustivel.setVisible(true);
+        TelaPrincipal telaPrincipal = new TelaPrincipal();
+        telaPrincipal.setVisible(true);
     }
     
     private static void lookAndFeel(){

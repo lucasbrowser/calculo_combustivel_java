@@ -38,7 +38,7 @@ public class TelaCalculoCombustivel extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         lblResultado = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Tela de Cálculo de Combustível");
 
         jLabel1.setText("Cálculo de Combustível");
